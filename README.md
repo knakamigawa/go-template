@@ -1,3 +1,3 @@
 # go-template
 
-go text/template example
+go `text/template` example
