@@ -1,0 +1,18 @@
+<h1>{{ .Key1 }}</h1>
+<h1>{{ .Key2 }}</h1>
+
+<h1>{{ .DateNow }}</h1>
+
+<h1>{{ .TargetDate }}</h1>
+
+<h1>{{ .DateNowAdd1Hour }}</h1>
+
+{{ if .Flag1 }}
+if flag 1 true !!!!!
+{{ end }}
+
+
+{{ if eq .Flag1 false }}
+{{ else }}
+if flag 1 is not false !!!!!
+{{ end }}
